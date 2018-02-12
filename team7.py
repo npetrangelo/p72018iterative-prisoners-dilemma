@@ -27,7 +27,6 @@ def move(my_history, their_history, my_score, their_score):
     # Decide whether to return 'c' or 'b'.
     
     return 'b'
-
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
@@ -46,7 +45,6 @@ def test_move(my_history, their_history, my_score, their_score, result):
         return False
 
 if __name__ == '__main__':
-     
     # Test 1: Betray on first move.
     if test_move(my_history='',
               their_history='', 
